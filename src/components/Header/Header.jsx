@@ -5,6 +5,7 @@ const Header = () => {
   return (
     <header className={style.header}>
       <img src={logo} alt="logo" className={style.logo} />
+      <p className={style.subtitle}>realizace barů a eventů</p>
     </header>
   );
 };
