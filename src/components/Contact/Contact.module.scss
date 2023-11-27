@@ -1,0 +1,56 @@
+@import "src/styles/color.scss";
+
+.contact {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.contact__container {
+  width: 90%;
+  margin: 0 auto;
+  z-index: 10;
+}
+.contact__title {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-left: 2.7rem;
+  color: $fun-green;
+  text-align: left;
+}
+
+.card__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.contact__card {
+  width: 30%;
+  padding: 0.5rem;
+  background-color: #b2d2be4f;
+  border-radius: 10px;
+  text-align: left;
+  color: $fun-green;
+  box-shadow: $gossamer-green 0px 0px 10px 0px;
+}
+
+.card__title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.card__phone {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.card__email {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
