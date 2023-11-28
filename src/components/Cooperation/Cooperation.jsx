@@ -1,4 +1,5 @@
 import style from "./Cooperation.module.scss";
+import React from "react";
 
 const Cooperation = () => {
   return (

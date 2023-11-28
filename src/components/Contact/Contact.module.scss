@@ -1,56 +1,71 @@
 @import "src/styles/color.scss";
+@import "src/styles/breakpoints.scss";
+@import "src/styles/_global.scss";
 
 .contact {
   width: 100%;
   margin: 1rem 0;
+  font-family: "FormaDJRDisplay", sans-serif;
 }
 
 .contact__container {
-  width: 90%;
+  width: 92%;
   margin: 0 auto;
   z-index: 10;
+
+  @media (min-width: $screen-md-min) {
+    width: 90%;
+  }
 }
+
 .contact__title {
-  font-size: 30px;
+  margin-bottom: 1rem;
+  color: $fun-green;
+  font-size: 1.8rem;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 30px;
-  margin-left: 2.7rem;
-  color: $fun-green;
   text-align: left;
+
+  @media (min-width: $screen-md-min) {
+    margin-left: 0.7rem;
+    font-size: 2.2rem;
+  }
 }
 
 .card__box {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  gap: 1rem;
+
+  @media (min-width: $screen-md-min) {
+    flex-direction: row;
+  }
+}
+
+.card__img {
+  width: 30%;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 100%;
 }
 
 .contact__card {
-  width: 30%;
-  padding: 0.5rem;
-  background-color: #b2d2be4f;
-  border-radius: 10px;
-  text-align: left;
+  width: 100%;
+  padding: 1rem 0.5rem;
   color: $fun-green;
-  box-shadow: $gossamer-green 0px 0px 10px 0px;
-}
-
-.card__title {
-  font-size: 20px;
+  background-color: $chefs-hat;
+  border-radius: 10px;
+  box-shadow: $gossamer-green 0px 0px 5px 0px;
+  text-align: left;
+  font-size: 1.2rem;
   font-weight: 700;
-  margin-bottom: 0.5rem;
-}
+  letter-spacing: 0.01rem;
 
-.card__phone {
-  font-size: 18px;
-  font-weight: 400;
-  margin-bottom: 0.5rem;
-}
-
-.card__email {
-  font-size: 18px;
-  font-weight: 400;
-  margin-bottom: 0.5rem;
+  @media (min-width: $screen-md-min) {
+    width: 45%;
+    box-shadow: $gossamer-green 0px 0px 15px 0px;
+    font-size: 0.98rem;
+  }
 }
