@@ -59,8 +59,15 @@ a {
 }
 
 @font-face {
-  font-family: "KoHo";
-  src: url("../fonts/KoHo/KoHo-Regular.woff2");
-  font-weight: normal;
+  font-family: "FormaDJRDisplay";
+  src: url("../fonts/forma-djr-banner-cdnfonts/FormaDJRDisplay-Bold-Testing.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FormaDJRDisplay";
+  src: url("../fonts/forma-djr-banner-cdnfonts/FormaDJRDisplay-Medium-Testing.ttf");
+  font-weight: 500;
   font-style: normal;
 }

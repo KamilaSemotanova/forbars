@@ -1,9 +1,11 @@
 @import "src/styles/color.scss";
 @import "src/styles/breakpoints.scss";
+@import "src/styles/_global.scss";
 
 .contact {
   width: 100%;
   margin: 1rem 0;
+  font-family: "FormaDJRDisplay", sans-serif;
 }
 
 .contact__container {
@@ -15,14 +17,19 @@
     width: 90%;
   }
 }
+
 .contact__title {
-  font-size: 30px;
+  font-size: 1.8rem;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 30px;
-  margin-left: 2.7rem;
+  margin-bottom: 1rem;
   color: $fun-green;
   text-align: left;
+
+  @media (min-width: $screen-md-min) {
+    font-size: 2.2rem;
+    margin-left: 2.7rem;
+  }
 }
 
 .card__box {
@@ -39,8 +46,9 @@
 
 .card__img {
   position: relative;
-  width: 50%;
+  width: 30%;
   height: auto;
+  margin-bottom: 1rem;
   border-radius: 100%;
 }
 
@@ -50,28 +58,26 @@
   background-color: $chefs-hat;
   border-radius: 10px;
   text-align: left;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.01rem;
   color: $fun-green;
-  box-shadow: $gossamer-green 0px 0px 15px 0px;
+  box-shadow: $gossamer-green 0px 0px 5px 0px;
 
   @media (min-width: $screen-md-min) {
     width: 30%;
+    box-shadow: $gossamer-green 0px 0px 15px 0px;
   }
 }
 
 .card__title {
-  font-size: 20px;
-  font-weight: 700;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.2rem;
 }
 
 .card__phone {
-  font-size: 18px;
-  font-weight: 400;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.2rem;
 }
 
 .card__email {
-  font-size: 18px;
-  font-weight: 400;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.2rem;
 }
