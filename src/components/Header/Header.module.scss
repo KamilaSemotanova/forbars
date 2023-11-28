@@ -1,4 +1,6 @@
 @import "src/styles/color.scss";
+@import "src/styles/breakpoints.scss";
+@import "src/styles/_global.scss";
 
 .header {
   display: flex;
@@ -6,16 +8,18 @@
   justify-content: center;
   align-items: center;
   margin: 0.5rem 0;
+  border-bottom: 1px solid $lavender-purple;
 }
 
 .logo {
-  width: 100px;
+  width: 7rem;
   height: auto;
 }
 
 .subtitle {
-  font-size: 20px;
-  font-weight: 700;
   margin-bottom: 0.5rem;
   color: $fun-green;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "FormaDJRDisplay", sans-serif;
 }
