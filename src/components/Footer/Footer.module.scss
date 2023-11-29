@@ -1,9 +1,18 @@
-.header {
+@import "src/styles/color.scss";
+@import "src/styles/breakpoints.scss";
+@import "src/styles/_global.scss";
+
+.footer {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
-.logo {
-  width: 100px;
-  height: auto;
-  margin-right: 20px;
+.copyright {
+  margin-top: 0.5rem;
+  color: $fun-green;
+  font-size: 0.7rem;
+  font-weight: 500;
+  font-family: "FormaDJRDisplay", sans-serif;
 }
