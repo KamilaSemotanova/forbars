@@ -1,4 +1,3 @@
-import React from "react";
 import style from "./App.module.scss";
 import Contact from "./components/Contact/Contact";
 import Cooperation from "./components/Cooperation/Cooperation";

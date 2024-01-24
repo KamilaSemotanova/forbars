@@ -1,4 +1,9 @@
 import style from "./Cooperation.module.scss";
+import PraguePride from "./img/PraguePrideLogo.png";
+import pq2023 from "./img/pq2023_logo.png";
+import ZazitMestoJinak from "./img/ZazitMestoJinak.jpg";
+import SvetKnihy from "./img/SvetKnihyLogo.svg";
+import CRo from "./img/CRoLogo.png";
 
 const Cooperation = () => {
   return (
@@ -7,34 +12,19 @@ const Cooperation = () => {
         <h2 className={style.cooperation__title}>Spolupráce</h2>
         <div className={style.cooperation__items}>
           <div className={style.cooperation__item}>
-            <img
-              src="src/components/Cooperation/img/PraguePrideLogo.png"
-              alt="Prague pride logo"
-            />
+            <img src={PraguePride} alt="Prague pride logo" />
           </div>
           <div className={style.cooperation__item}>
-            <img
-              src="src/components/Cooperation/img/pq2023_logo.png"
-              alt="Prague quadrienale logo"
-            />
+            <img src={pq2023} alt="Prague quadrienale logo" />
           </div>
           <div className={style.cooperation__item}>
-            <img
-              src="src/components/Cooperation/img/ZazitMestoJinak.jpg"
-              alt="Zazit mesto jinak logo"
-            />
+            <img src={ZazitMestoJinak} alt="Zazit mesto jinak logo" />
           </div>
           <div className={style.cooperation__item}>
-            <img
-              src="src/components/Cooperation/img/SvetKnihyLogo.svg"
-              alt="Svet knihy logo"
-            />
+            <img src={SvetKnihy} alt="Svet knihy logo" />
           </div>
           <div className={style.cooperation__item}>
-            <img
-              src="src/components/Cooperation/img/CRoLogo.png"
-              alt="cesky rozhlas logo"
-            />
+            <img src={CRo} alt="cesky rozhlas logo" />
           </div>
           <div className={style.cooperation__item}>
             <svg
