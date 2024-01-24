@@ -1,5 +1,4 @@
 import style from "./Cooperation.module.scss";
-import React from "react";
 
 const Cooperation = () => {
   return (
@@ -7,6 +6,36 @@ const Cooperation = () => {
       <div className={style.cooperation__container}>
         <h2 className={style.cooperation__title}>Spolupráce</h2>
         <div className={style.cooperation__items}>
+          <div className={style.cooperation__item}>
+            <img
+              src="src/components/Cooperation/img/PraguePrideLogo.png"
+              alt="Prague pride logo"
+            />
+          </div>
+          <div className={style.cooperation__item}>
+            <img
+              src="src/components/Cooperation/img/pq2023_logo.png"
+              alt="Prague quadrienale logo"
+            />
+          </div>
+          <div className={style.cooperation__item}>
+            <img
+              src="src/components/Cooperation/img/ZazitMestoJinak.jpg"
+              alt="Zazit mesto jinak logo"
+            />
+          </div>
+          <div className={style.cooperation__item}>
+            <img
+              src="src/components/Cooperation/img/SvetKnihyLogo.svg"
+              alt="Svet knihy logo"
+            />
+          </div>
+          <div className={style.cooperation__item}>
+            <img
+              src="src/components/Cooperation/img/CRoLogo.png"
+              alt="cesky rozhlas logo"
+            />
+          </div>
           <div className={style.cooperation__item}>
             <svg
               viewBox="0 0 246 32"

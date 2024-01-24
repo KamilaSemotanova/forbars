@@ -34,6 +34,7 @@ body::after {
   width: 3em;
   height: 3em;
   content: ".";
+  color: transparent;
   mix-blend-mode: screen;
   animation: 44s -27s move infinite ease-in-out alternate;
   z-index: -1;

@@ -35,10 +35,15 @@
 .cooperation__items {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1.5rem;
   width: 100%;
 }
 
 .cooperation__item {
-  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28%;
   height: auto;
 }
