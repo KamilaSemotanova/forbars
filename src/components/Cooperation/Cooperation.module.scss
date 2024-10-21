@@ -36,14 +36,26 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 1.5rem;
+  gap: 1rem;
   width: 100%;
+
+  @media (min-width: $screen-md-min) {
+    font-size: 1.5rem;
+  }
 }
 
 .cooperation__item {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 28%;
+  width: 40%;
   height: auto;
+
+  @media (min-width: $screen-md-min) {
+    width: 28%;
+  }
+
+  @media (min-width: $screen-lg-min) {
+    width: 20%;
+  }
 }
